@@ -1,6 +1,4 @@
 
-> `TL;DR`
-
 fork of https://github.com/ab77/netflix-proxy, to run:
 
     apt-get update\

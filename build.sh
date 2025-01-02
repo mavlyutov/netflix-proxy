@@ -115,7 +115,7 @@ EXTIP=$(get_ext_ipaddr 4)
 
 IPV6=0
 if cat /proc/net/if_inet6 | grep -v lo | grep -v fe80 > /dev/null\
-  && $(which curl) mgmt.unzoner.com --fail --silent -6 > /dev/null; then
+  && $(which curl) icanhazip.com --fail --silent -6 > /dev/null; then
     IPV6=1
     IPADDR6=$(get_ipaddr6)
     EXTIP6=$(get_ext_ipaddr 6)
